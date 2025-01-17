@@ -7,7 +7,7 @@ st.set_page_config(page_title="Custom Background", layout="wide")
 background_image = """
 <style>
 body {
-    background-image: url('https://github.com/papavask/test/blob/cbe639559116540999088d6f38f350d6fff22acc/assets/bg2.jpg');
+    background-image: url('https://github.com/papavask/test/blob/main/bg-img.jpg?raw=true');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,5 +27,5 @@ st.write("This app has a custom background.")
 # insert image
 #st.image("./bg2.jpg")
 
-htp="https://github.com/papavask/test/blob/cbe639559116540999088d6f38f350d6fff22acc/assets/bg2.jpg"
-st.image(htp, caption= 'logo', width=350)
+#htp="https://github.com/papavask/test/blob/cbe639559116540999088d6f38f350d6fff22acc/assets/bg2.jpg"
+#st.image(htp, caption= 'logo', width=350)
