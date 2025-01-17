@@ -7,7 +7,7 @@ st.set_page_config(page_title="Custom Background", layout="wide")
 background_image = """
 <style>
 body {
-    background-image: url('./bg2.jpg');
+    background-image: url('https://github.com/papavask/test/blob/cbe639559116540999088d6f38f350d6fff22acc/assets/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
