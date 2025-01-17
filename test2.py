@@ -7,7 +7,7 @@ st.set_page_config(page_title="Custom Background", layout="wide")
 background_image = """
 <style>
 body {
-    background-image: url('bg2.jpg');
+    background-image: url('./bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
