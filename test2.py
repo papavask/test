@@ -25,4 +25,4 @@ st.write("This app has a custom background.")
 
 
 # insert image
-st.image("assets/bg2.jpg")
+st.image("./bg2.jpg")
