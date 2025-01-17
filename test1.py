@@ -1,19 +1,18 @@
 import streamlit as st
 
-# Define the path to the image (local or URL)
-image_url = "./bg-img.jpg"  # For a URL image
-# image_path = "path/to/your/local/image.jpg"  # If using a local image
+# Use a local path or a URL for the image
+image_url = "./bg-img.jpg"  # Or use a local path like "assets/my_background.jpg"
 
-# Apply custom CSS to set the background image
+# Inject CSS to set the background image
 st.markdown(
     f"""
     <style>
-        .stApp {{
+        .css-1d391kg {{
             background-image: url("{image_url}");
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
-            height: 100vh;
+            height: 100vh;  /* Full viewport height */
         }}
     </style>
     """,
