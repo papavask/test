@@ -25,4 +25,7 @@ st.write("This app has a custom background.")
 
 
 # insert image
-st.image("./bg2.jpg")
+#st.image("./bg2.jpg")
+
+htp="https://raw.githubusercontent.com/papavas/test/bg2.jpg"
+st.image(htp, caption= 'logo', width=350)
