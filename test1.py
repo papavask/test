@@ -32,4 +32,3 @@ st.markdown(
 # Streamlit app content
 st.title("Streamlit App with Background Image test")
 st.write("This is a simple example of how to add a background image.")
-st.write(image_url)
