@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 # URL or local path to the image
 image_url = "assets/bg2.jpg"  # Or use a local path like "assets/background.jpg"
