@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 # HTML content with background image
 html_content = """
-<div style="background-image: url('bg2.jpg');
+<div style="background-image: url('./bg-img.png');
             background-size: cover;
             background-repeat: no-repeat;
             height: 100vh;
