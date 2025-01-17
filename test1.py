@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Define the path to the image (local or URL)
-image_url = "./bg-img.png"  # For a URL image
+image_url = "./bg-img.jpg"  # For a URL image
 # image_path = "path/to/your/local/image.jpg"  # If using a local image
 
 # Apply custom CSS to set the background image
