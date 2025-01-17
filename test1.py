@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Use a local path or a URL for the image
-image_url = "./bg-img.jpg"  # Or use a local path like "assets/my_background.jpg"
+image_url = "bg-img.jpg"  # Or use a local path like "assets/my_background.jpg"
 
 # Inject CSS to set the background image
 st.markdown(
