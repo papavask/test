@@ -22,3 +22,7 @@ st.markdown(background_image, unsafe_allow_html=True)
 # Streamlit app content
 st.title("Welcome to the Streamlit App!")
 st.write("This app has a custom background.")
+
+
+# insert image
+st.image("assets/bg2.jpg")
